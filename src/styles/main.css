@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2f2f2;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 6em;
+    padding-block: 3em;
+}
+
+.navbar-section h1{
+    color: #79155B;
+}
+
+.navbar-section ul{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+
+.navbar-section ul a{
+    color: #79155B;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-section ul a.active{
+    color: #fff;
+    background-color: #79155B;
+    border-radius: 0.6rem;
+    padding: 0.5em 1em;
+    transition: 0.4s linear;
+}
+
+.navbar-section button{
+    padding: 1em 1.5em;
+    background-color: #79155B;
+    border: none;
+    border-radius: 0.6rem;
+}
+
+.navbar-section button a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.home-page , .about-page , .service-page{
+    transform: translateY(200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #79155B;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.contactUs-page{
+    transform: translateY(150px);
+    padding: 6em;
+}
+
+.contactUs-page .contactUs-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.contactUs-links{
+    display: flex;
+    background: #79155B;
+    font-size: 18px;
+    border-radius: 0.5em;
+    padding: 2em;
+    flex: 0 0 20%;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contactUs-links a{
+    color: #fff;
+}
+
+.contact-section{
+    background: #79155B;
+    color: #fff;
+    padding: 2em;
+    border-radius: 0.5em;
+    flex: 1;
+}
+
+.social-media-icon{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 5px;
+}
+
+.NotFound{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #79155B;
+}
+
+.NotFound a{
+    font-size: 20px;
+    padding: 1em 1.5em;
+    background-color: #79155B;
+    border: none;
+    border-radius: 0.6rem;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.NotFound a:hover{
+    background-color: #a73b87;
+}
